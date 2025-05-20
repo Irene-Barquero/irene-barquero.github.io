@@ -8,7 +8,7 @@ No tiene puntuación final, es solo para que te aprendas divirtiéndote.
 
 ## ⚙️ Ejecución
 
-Puedes ejecutar la historia haciendo doble click en el archivo html. Se abrirá de forma automática en otra pestaña de tu navegador. Si lo prefieres, puedes descargarte la aplicación de Twine y ejecutar el archivo twee. 
+Puedes ejecutar la historia descaragando el archivo html y haciendo doble click. Se abrirá de forma automática en una pestaña de tu navegador. Si lo prefieres, puedes descargarte la aplicación de Twine y ejecutar el archivo twee. 
 
 ## 🗂️ Navegación
 
