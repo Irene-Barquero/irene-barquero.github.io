@@ -1,0 +1,19 @@
+---
+title:
+- type: main
+  text: Glosario Plus+
+- type: subtitle
+  text: Potencia tu alemán
+creator:
+- role: author
+  text: Irene Barquero Moreno
+- role: editor
+  text: 
+identifier:
+- scheme: DOI
+  text: doi:10.234234.234/33
+publisher:  TourGuides
+rights: © 2025 Irene Barquero, CC BY-NC
+ibooks:
+  version: 1.3.4
+...

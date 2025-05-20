@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lección_y_ejercicios.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="1-guten-tag-mein-name-ist">1. Guten Tag. Mein Name ist...</h1>
+<p><img src="img/people-7469420_640.jpg" alt="Dos personas conversando"></p>
+<blockquote>
+<p><em>«Los límites de mi idioma son los límites de mi mundo»</em> - Ludwig Wittgenstein</p>
+</blockquote>
+<h2 id="%C3%ADndice">Índice</h2>
+<ul>
+<li>1.1. <strong>Einführung</strong> (Introducción)</li>
+<li>1.2. <strong>Grüße</strong> (Saludos)
+<ul>
+<li>Estructura sintáctica</li>
+<li>Personalpronomen (Pronombres)</li>
+</ul>
+</li>
+<li>1.4. <strong>Ich komme aus...</strong>(Vengo de...)
+<ul>
+<li>Verben (Verbos)</li>
+</ul>
+</li>
+<li>1.5. <strong>Persönliche Angaben</strong> (Datos personales)</li>
+<li>1.6. <strong>Wortschatz+</strong> (Vocabulario)</li>
+</ul>
+<hr>
+<h3 id="11-einf%C3%BChrung">1.1 Einführung</h3>
+<div align="justify">Bienvenidos/as a este curso inicial de conversación en alemán. Para comenzar vamos a aprender los saludos básicos (tanto formales como informales) y a cómo presentarnos. Esto se logrará mediante una serie de ejercicios prácticos que serán principalmente por escrito, pero también habrá actividades de escucha a lo largo de la unidad. Teoría y ejercicios irán dados de la mano, de forma que el contenido no se quede en una simple lectura. La clave para avanzar e integrar nueva información es ponerla en prácica de diversas formas. Dicho esto, ¡comencemos!
+<h3 id="12-gru%C3%9Fe">1.2. Gruße</h3>
+<p>Para iniciar esta sección os propongo que primero visualicéis el siguiente vídeo:</p>
+<p><a href="https://www.youtube.com/watch?v=ExgNcb0soco" title="Cómo saludar y presentarse en alemán"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1740504896/video_to_markdown/images/youtube--ExgNcb0soco-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Cómo saludar y presentarse en alemán"></a></p>
+<p>En él se da a conocer algunos de los saludos y formas de presentarse más básicas en la lengua alemana. Ya que es un vídeo introductorio, no se incluyen expresiones gramaticales, pues el objetivo es tomar un primer contacto con la lengua que no produzca grandes dificultades. En <a href="#15-wortschatz">Wortschatz+</a> tenéis disponible todo el vocabulario mencionado.</p>
+<p><strong>Achtung!</strong> --&gt; Los ejercicios están señalados con el siguiente sistema: A1, A2. A3, etc.</p>
+<h4 id="ua1-h%C3%B6ren-sie-und-sprechen-sie-dann-ihrem-namenu"><u>A1. Hören Sie und Sprechen Sie dann Ihrem Namen.</u></h4>
+<p>+ <strong>Guten Tag</strong>. Mein name ist Thomas Rob.<br>
+- Guten Tag, Herr ... Entschuldigung, <strong>wie heißen Sie?</strong><br>
++ Thomas Rob.<br>
+- Ah ja. Guten Tag, Herr Rob. <strong>Ich bin Claudia González.</strong><br>
++ Guten Tag, Frau González.</p>
+<hr>
+<p>* Das ist meine Kollegin Frau González.<br>
+- Guten Tag, Frau González. Herzlich wilkommen.<br>
++ Vielen Dank. <strong>Und wer sind Sie?</strong><br>
+- Ich bin Monik Strauss.</p>
+<p>Nota: si no entiendes alguna palabra o expresión, y no aparece en el vocabulario, puedes consultarla en <a href="https://www.wordreference.com/">Wordreference.</a></p>
+<h4 id="estructura-sint%C3%A1ctica">- Estructura sintáctica</h4>
+<p>Para ayudarte, quí tienes unas tablas sencillas que te indican el orden de las oraciones afirmativas e interrogativas en alemán.</p>
+<ol>
+<li>Aussage (Enunciados afirmativos)</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mein Name</td>
+<td>ist</td>
+<td>Irene Barquero</td>
+</tr>
+<tr>
+<td>Ich</td>
+<td>bin</td>
+<td>Irene</td>
+</tr>
+<tr>
+<td>Ich</td>
+<td>komme</td>
+<td>aus Spanien</td>
+</tr>
+<tr>
+<td>Sie</td>
+<td>sprechen</td>
+<td>Deutsch</td>
+</tr>
+</tbody>
+</table>
+<ol start="2">
+<li>Frage (Preguntas)</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wer</td>
+<td>ist</td>
+<td>das?</td>
+</tr>
+<tr>
+<td>Wie</td>
+<td>heißen</td>
+<td>Sie?</td>
+</tr>
+<tr>
+<td>Woher</td>
+<td>kommen</td>
+<td>Sie?</td>
+</tr>
+<tr>
+<td>Was</td>
+<td>sprechen</td>
+<td>Sie?</td>
+</tr>
+</tbody>
+</table>
+<h4 id="personalpronomen">- Personalpronomen</h4>
+<ol>
+<li>Ich</li>
+<li>Du</li>
+<li>Er/Sie/Es (en alemán existe el neutro)</li>
+<li>Wir</li>
+<li>Ihr</li>
+<li>sie/Sie (ellos/usted)</li>
+</ol>
+<h3 id="14-ich-komme-aus">1.4. <strong>Ich komme aus...</strong></h3>
+<p>Este apartado se basa en practicar un poco la estructura sintáctica y a aprender cómo decir los nombres de algunos países (en <a href="#15-wortschatz">Wortschatz+</a> lo puedes consultar). Aquí tienes una tabla inicial con las conjungaciones básicas (1ª, 2ª y 3ª persona).
+Puedes observar como las declinaciones en los verbos regulares (total o parcialmente), se repiten (<em>-e, -st, -en</em>), mientras que el verbo irregular <em>sein</em> (ser/estar) no sigue esa tendencia. Esto ocurre con varios verbos en alemán, y al igual que en todas las lenguas, no queda otra más que practicarlos hasta interiorizarlos. Lo positivo es que tan solo son unos pocos, como los verbos auxiliares <em>haben</em> (tener) y <em>werden</em> (llegar a ser/convertise), ¡así que ánimo!</p>
+<h4 id="verben">Verben</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>kommen</th>
+<th>heißen</th>
+<th>sprechen</th>
+<th>sein</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ich</td>
+<td>komm<strong>e</strong></td>
+<td>heiß<strong>e</strong></td>
+<td>sprech<strong>e</strong></td>
+<td><strong>bin</strong></td>
+</tr>
+<tr>
+<td>du</td>
+<td>komm<strong>st</strong></td>
+<td>hei<strong>ßt</strong></td>
+<td>spr<strong>i</strong>ch<strong>st</strong></td>
+<td><strong>bist</strong></td>
+</tr>
+<tr>
+<td>Sie</td>
+<td>komm<strong>en</strong></td>
+<td>heiß<strong>en</strong></td>
+<td>sprech<strong>en</strong></td>
+<td><strong>sind</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="ua3-erg%C3%A4nzen-sieu"><u>A3. Ergänzen Sie.</u></h4>
+<p>- Herr González, woher komm___ Sie?<br>
+* Aus Spanien.</p>
+<p>* Peter, woher komm___ du?<br>
+- Aus Österreich.</p>
+<p>*Frau Strauss, woher _______ ____?<br>
+- Aus der Schweiz.</p>
+<h4 id="ua4-h%C3%B6ren-sie-welches-bild-passt-zu-welchen-gespr%C3%A4chu"><u>A4. Hören Sie. Welches Bild passt zu welchen Gespräch?</u></h4>
+<p><img src="img/people-talking-908342_640.jpg" alt="Dos hombres hablando">
+<img src="img/woman-9095466_640.jpg" alt="Una mujer y un hombre hablando"></p>
+<p>* Guten Tag. Meine Name ist Frank Michelson.<br>
+- Guten Tag. Freut mich. Ich heiße Jenna Wagner. <strong>Woher kommen Sie</strong>, Herr Michelson?<br>
+* Den USA, aus Oklahoma.</p>
+<hr>
+<p>* Hallo. Ich bin Mikel. Und wer bist du?<br>
+- Ich bin Oliver. <strong>Woher kommst du</strong>, Mikel?<br>
+* Aus Berlin.</p>
+<h3 id="15-pers%C3%B6nliche-angaben">1.5. Persönliche Angaben</h3>
+<p>Finalmente, aquí encontrarás un par de ejercicios de escucha, sencillos, que te ayudarán a afianzar nuevo vocabulario. El objetivo es ampliar brevemente lo aprendido al comienzo de la lección, dando datos como tu nombre, apellidos, dirección, etc.</p>
+<h4 id="ua2-h%C3%B6ren-sie-und-erg%C3%A4nzen-sie-das-formularu"><u>A2. Hören Sie und ergänzen Sie das Formular.</u></h4>
+<h2 id="hotel-berlin">HOTEL Berlin</h2>
+<p><img src="img/receptionists-5975962_640(1).jpg" alt="Recepcionista"></p>
+<p><strong>GÄSTEINFORMATION</strong></p>
+<ul>
+<li>Familienname:</li>
+<li>Vorname:</li>
+<li>Stadt:</li>
+<li>Straße:</li>
+<li>Land:</li>
+</ul>
+<h4 id="ua5-erg%C3%A4nzen-sie-das-formular-mit-ihnen-datenu"><u>A5. Ergänzen Sie das Formular mit Ihnen Daten.</u></h4>
+<table>
+<thead>
+<tr>
+<th>Familienname:</th>
+<th>______________</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vorname:</td>
+<td>______________</td>
+</tr>
+<tr>
+<td>Strabe, Hausnummer:</td>
+<td>______________</td>
+</tr>
+<tr>
+<td>Postleitzahl, Stadt:</td>
+<td>______________</td>
+</tr>
+</tbody>
+</table>
+<h3 id="15-wortschatz">1.5. Wortschatz+</h3>
+<table>
+<thead>
+<tr>
+<th>Gruße</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hallo</td>
+<td>Hola</td>
+</tr>
+<tr>
+<td>Guten Tag / Guten Morgen*</td>
+<td>Buenos días</td>
+</tr>
+<tr>
+<td>Guten Abend</td>
+<td>Buenas tardes</td>
+</tr>
+<tr>
+<td>Gute Nacht</td>
+<td>Buenas noches</td>
+</tr>
+<tr>
+<td>Auf Wiedersehen</td>
+<td>Adiós (literalmente: &quot;hasta que nos veamos&quot;)</td>
+</tr>
+<tr>
+<td>Tschüs, Bis Bald (+ informal)</td>
+<td>Adiós</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><em>Guten Morgen</em> tan solo se usa por la mañana, mientras que <em>Guten Tag</em> se puede usar a lo largo de todo el día.</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Ich stelle mich vor!</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meine Name <strong>ist</strong> Irene</td>
+<td>Mi nombre es Irene</td>
+</tr>
+<tr>
+<td>Ich <strong>heiße</strong> Irene</td>
+<td>Me llamo Irene</td>
+</tr>
+<tr>
+<td>Ich <strong>bin</strong> 25 Jahre alt</td>
+<td>Tengo 25 años</td>
+</tr>
+<tr>
+<td>Ich <strong>komme</strong> aus Spanien</td>
+<td>Vengo de España/Soy de España</td>
+</tr>
+<tr>
+<td>Ich <strong>bin</strong> Spanisch</td>
+<td>Soy española</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>aus</th>
+<th>dem</th>
+<th>der</th>
+<th>den</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spanien</td>
+<td>Iran</td>
+<td>Schweiz</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Deutschland</td>
+<td>...</td>
+<td>Türkei</td>
+<td>...</td>
+</tr>
+<tr>
+<td>England</td>
+<td></td>
+<td>...</td>
+<td></td>
+</tr>
+<tr>
+<td>Italien</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Österreich</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Persönliche Angaben</th>
+<th>Datos personales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Familienname</td>
+<td>Apellido(s)*</td>
+</tr>
+<tr>
+<td>Vorname</td>
+<td>Nombre**</td>
+</tr>
+<tr>
+<td>Strabe</td>
+<td>Calle</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>Número</td>
+</tr>
+<tr>
+<td>Postleitzahl</td>
+<td>Código postal</td>
+</tr>
+<tr>
+<td>Stadt</td>
+<td>Ciudad</td>
+</tr>
+<tr>
+<td>Land</td>
+<td>País</td>
+</tr>
+</tbody>
+</table>
+<p>* En Alemania normalmente solo se tiene un apellido.<br>
+* * Literalmente: &quot;antes del nombre&quot; : <em>vor + name.</em></p>
+<h1 id="2-familie-und-freunde">2. Familie und Freunde</h1>
+<p><img src="img/presentacion.jpg" alt="En esta imagen: chico presentándose"></p>
+<p>En esta unidad nos centraremos en aprender a presentar a nuestros familiares y amigos, por lo que necesitarás vocabulario nuevo. También aprenderemos a contar hasta 30.</p>
+<h2 id="%C3%ADndice">Índice</h2>
+<ul>
+<li>2.1. <strong>Wie geht's? - Danke, sehr gut</strong> (¿Cómo estás?)</li>
+<li>2.2. <strong>Das ist mein Freund...</strong> (Presentar a alguien)</li>
+<li>2.3. <strong>Zahlen</strong> (Números)</li>
+<li>2.5. <strong>Linken</strong> (Enlaces)</li>
+</ul>
+<hr>
+<h3 id="21-wie-gehts---danke-sehr-gut">2.1. Wie geht's? - Danke, sehr gut.</h3>
+<p><u><strong>B1. Ordnen Sie die Emoticons den Sätzen zu.</strong></u></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Super!</td>
+<td>😀</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Danke, sehr gut.</td>
+<td>😆</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Gut, danke.</td>
+<td>🙂</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Na ja, es geht.</td>
+<td>😕</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ach, nich so gut.</td>
+<td>😐</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><u><strong>B2. Hören Sie und sprechen Sie dann mit Ihren Name.</strong></u></p>
+<p>a.</p>
+<p>+ Guten Tag, Herr Müller.<br>
+- Guten Tag, Herr Arhonen. <strong>Wie geht es Ihnen</strong>?<br>
++ Gut, danke. Und <strong>Ihnen</strong>?<br>
+- Auch gut.</p>
+<p>b.<br>
++ Hallo, Corinna.<br>
+- Hallo, Timo. Na, <strong>wie geht es dir</strong>?<br>
++ Danke, sehr gut. Und <strong>dir</strong>?<br>
+- Super.</p>
+<blockquote>
+<p>💡 ¿Sabes reconocer las diferencias entre ambos diálogos?</p>
+</blockquote>
+<p>⚠️ Recuerda: los pronombres personales en alemán son los siguientes:</p>
+<table>
+<thead>
+<tr>
+<th>ich</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>du</td>
+</tr>
+<tr>
+<td>er/sie</td>
+</tr>
+<tr>
+<td>wir</td>
+</tr>
+<tr>
+<td>ihr</td>
+</tr>
+<tr>
+<td>sie/Sie</td>
+</tr>
+</tbody>
+</table>
+<p>En alemán es muy importante la diferenciación entre el &quot;tú&quot; y el &quot;usted&quot;, por lo que debes de analizar la situación antes de dirigirte a alguien. Por norma general, la diferenciación se usa cuando se trata de alguien que no conoces, un superior del trabajo o una persona mayor.</p>
+<h3 id="22-das-ist-mein-freund">2.2. Das ist mein Freund...</h3>
+<p>En este apartado aprenderás a hacer referencia a familiares. Es muy importante tener en cuenta el género para poder usar los pronombres posesivos adecuadamente. Aquí te dejo una breve lista:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>mein Freund</em></td>
+<td>Mi amigo</td>
+<td><em>meine Kinder</em></td>
+<td>Mis hijos</td>
+<td><em>mein Mann</em></td>
+<td>Mi marido</td>
+</tr>
+<tr>
+<td><em>meine Familie</em></td>
+<td>Mi familia</td>
+<td><em>mein Sohn</em></td>
+<td>Mi hijo</td>
+<td><em>mein Geschwister</em></td>
+<td>Mis hermanos</td>
+</tr>
+<tr>
+<td><em>mein Vater</em></td>
+<td>Mi padre</td>
+<td><em>meine Tochter</em></td>
+<td>Mi hija</td>
+<td><em>meine GroBeltern</em></td>
+<td>Mis abuelos</td>
+</tr>
+<tr>
+<td><em>meine Mutter</em></td>
+<td>Mi madre</td>
+<td><em>mein Eltern</em></td>
+<td>Mis padres</td>
+<td><em>meine GroBmutter (Oma)</em></td>
+<td>Mi abuela</td>
+</tr>
+<tr>
+<td><em>meine Schwester</em></td>
+<td>Mi hermana</td>
+<td><em>mein Bruder</em></td>
+<td>Mi hermano</td>
+<td><em>mein GroBvater (Opa)</em></td>
+<td>Mi abuelo</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 ¿Cuál es la diferencia principal que observas entre femenino y másculino? ¿Y entre singular y plural?</p>
+</blockquote>
+<p><u><strong>B3. Sprechen Sie. Wer sind Sie?</strong></u></p>
+<p>a. <img src="img/abuelos.jpg" alt="En esta imagen: abuelos con sus nietos"></p>
+<p>b. <img src="img/familia.jpg" alt="En esta imagen: padres e hijos"></p>
+<p><u><strong>B4. Ergänzen Sie.</strong></u></p>
+<p><img src="img/ejercicio.jpg" alt="En esta imagen: madre, padre, hijo e hija"></p>
+<ul>
+<li>Das ist _____.</li>
+<li>Das ist _____.</li>
+<li>_____ heiBt Thon, und _____ heiBt Hanna.*</li>
+</ul>
+<h3 id="23-zahlen">2.3. Zahlen</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Número</th>
+<th style="text-align:center"></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">eins</td>
+<td>11</td>
+<td><strong>elf</strong></td>
+<td>21</td>
+<td>einundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">zwei</td>
+<td>12</td>
+<td><strong>zwölf</strong></td>
+<td>22</td>
+<td>zweiundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">drei</td>
+<td>13</td>
+<td>dreizehn</td>
+<td>23</td>
+<td>dreiundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">vier</td>
+<td>14</td>
+<td>vierzehn</td>
+<td>24</td>
+<td>vierundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">fünf</td>
+<td>15</td>
+<td>fünfzehn</td>
+<td>25</td>
+<td>fünfundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">sechs</td>
+<td>16</td>
+<td>sechzehn</td>
+<td>26</td>
+<td>sechsundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">sieben</td>
+<td>17</td>
+<td>siebzehn</td>
+<td>27</td>
+<td>siebenundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">acht</td>
+<td>18</td>
+<td>achtzehn</td>
+<td>28</td>
+<td>achtundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">neun</td>
+<td>19</td>
+<td>neunzehn</td>
+<td>29</td>
+<td>neunundzwanzig</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center"><strong>zehn</strong></td>
+<td>20</td>
+<td><strong>zwanzig</strong></td>
+<td>30</td>
+<td><strong>dreißig</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Como puedes observar los números en alemán siguen, generalmente, una estructura fija. A partir del número 13, se le añade a la unidad el sufijo <em>-zehn</em>, que es 10. Sería algo parecido a decir &quot;tres y diez = trece&quot;.
+A partir del número 21, ocurre igual, solo que en este caso, el sufijo es 20 (<em>-zwanzig</em>). Para decir 21, decimos &quot;uno y veinte&quot; : <em>einundzwanzig</em>. La mayoría continuan de este modo.</p>
+<p>Solo hay algunos números que varían, que son aquellos marcados en negrita, no queda otra que practicarlos y memorizarlos.</p>
+<blockquote>
+<p>Aquí te dejo un enlace a <a href="https://www.alemansencillo.com/los-numeros-en-aleman">Aleman Sencillo</a>, donde encontrarás más números con su pronunciación.</p>
+</blockquote>
+<p><u><strong>B5. Welche Telefonnummern hören Sie? Kreuzen Sie an.</strong></u></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[ ]</td>
+<td>1</td>
+<td>30</td>
+<td>12</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>5</td>
+<td>8</td>
+<td>21</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>22</td>
+<td>13</td>
+<td>12</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>4</td>
+<td>26</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<h3 id="linken">Linken</h3>
+<p>En este apartado final encontraéis enlaces con ejercicios prácticos, principalmente de audición, que os pueden ser de ayuda a la hora de familiarizarse con la fonética alemana. Además de los enlaces mencionados a lo largo de la unidad.</p>
+<ul>
+<li>Enlace para prácticar la escucha (nivel inicial): <a href="https://germanwithmax.com/en/podcasts/a1">Learn german with Max.</a></li>
+<li><a href="https://www.wordreference.com/">Wordreference.</a> (traductor español-alemán)</li>
+<li>Canal de <a href="https://www.youtube.com/@deutschmania">Deutschmanía</a>, usado en esta lección. Útil para ampliar conocimientos y para las próximas unidades didácticas. </div></li>
+</ul>
+<h3 id="metadatos">Metadatos</h3>
+<ul>
+<li>*Title: Guten Tag. Mein Name ist...</li>
+<li>Author: Irene Barquero Moreno</li>
+<li>Date: 05/2025</li>
+<li>Subject: Alemán</li>
+<li>Keywords: alemán, idiomas, conversación, fonetica</li>
+<li>License: Creative Commons</li>
+<li>Version: 1.0*</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,653 @@
+:: StoryTitle
+Ein neuer Anfang in Deutschland
+
+
+:: StoryData
+{
+  "ifid": "7A8BA4B3-DC7D-48D8-85E9-92B0E6845A22",
+  "format": "Chapbook",
+  "format-version": "2.3.0",
+  "start": "1. Wilkommen in Frankfurt",
+  "zoom": 1
+}
+
+
+:: \ 4.1 {"position":"475,625","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+
+[[Me da a mí que vas a tener que probar de nuevo...->3. Hotel]]
+
+🧠 `Piensa`: ¿dónde pone correo postal?
+
+
+:: *"Ich möchte einen Milchkaffee.“* {"position":"725,1125","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+*Sehr Gut!*
+
+Te ponen tu café con leche y pasas un buen rato con Oliver.
+
+*Danke fürs Spielen!*
+
+{embed image: 'img/ende.jpg'}
+
+[[Volver a jugar->1. Wilkommen in Frankfurt]]
+
+
+:: 1. Wilkommen in Frankfurt {"position":"625,250","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Acabas de llegar a Frankfurt, una de las ciudades más importantes de Alemania. En el aeropuerto, una mujer se te acerca.
+
+{embed image: 'img/saludo.jpg'}
+
+*„Guten Tag! Mein Name ist Claudia Meier. Und Sie?“*
+
+¿Qué contestas?
+
+- [["Guten Tag, meine Name ist ____"->2. Taxi]]
+
+- [["Ich bin ___"->2.1]]
+
+- [["Ich komme aus Spanien"->2.2]]
+
+
+🧠 `Nota`: en esta actividad aparecerán algunas palabras nuevas, te animo a que investigues por tu propia cuenta. Recuerda: <a href="https://www.wordreference.com/" target="_blank">WordReference</a> es siempre una buena opción. 😉
+
+
+
+:: 2. Taxi {"position":"475,375","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Claudia te sonríe y te acompaña a la salida del aeropuerto. 
+
+[after 1 second]
+Justo llega un taxi y os subís. 
+
+<audio src="audio/coche.mp3" controls></audio>
+
+{embed image: 'img/taxi.jpg'}
+
+El taxista te mira y te pregunta: *"Woher kommen Sie?"*
+
+1. [["Ich komme aus Spanien"->3. Hotel]]
+
+2. [["Ich bin Spanien"->3.2]]
+
+3. [["Ich komme in Spanien"->3.1]]
+
+
+:: 2.1 {"position":"625,375","size":"100,100"}
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "dark grey"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Claudia te entiende, pero es una forma de expresarse muy informal para la situación, [[¡prueba de nuevo!->1. Wilkommen in Frankfurt]] 
+
+
+:: 2.2 {"position":"750,375","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+¡No te ha preguntado de dónde eres!
+
+Claudia te sonríe, pero [[espera tu respuesta. ->1. Wilkommen in Frankfurt]] 
+
+
+:: 3. Hotel {"position":"475,500","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+El taxista te contesta *"Sehr Gut! Ein schönes Land!"* y seguís con el trayecto.
+Al final llegáis al hotel y os encontráis con el recepcionista.
+
+{embed image: 'img/recepcionista.jpg'}
+
+Te dice: *"Bitte füllen Sie dieses Formular aus.“* Te da un formulario en el que pone en el siguiente orden: *Vorname, Familienname, Stadt, Land*. ¿Qué significan estas palabras?
+
+[[País, nombre, apellidos, correo postal -> 4.1]]
+
+[[Nombre, apellidos, ciudad, país->4. Klasse]]
+
+[[Nombre, apellidos, país, ciudad->4.2]]
+
+
+
+
+:: 3.1 {"position":"350,500","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+🧠Recuerda, para la mayoría de países se usa la preoposición *aus*, *in* significa literalmente: **en**. ¡Ten cuidado!
+
+[[Vuelve a intentarlo->2. Taxi]]
+
+
+:: 3.2 {"position":"600,500","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+
+¿Eres....España? 🤔
+
+[[Vuelve a intentarlo->2. Taxi]]
+
+
+:: 4. Klasse {"position":"600,625","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+
+
+Llegas al aula. La profesora te presenta al grupo.
+
+*"Das ist unser neuer Kursteilnehmer. Bitte, stell dich vor."*
+
+Te presentas diciendo tu nombre y de dónde vienes. Entonces se te acerca un muchacho:
+
+*"Hallo! Ich heiße Oliver und ich komme aus der Schweiz. Möchtest du mit mir einen Kaffee trinken?"* ☕
+
+[[*Ja! Ich möchte gerne!*->5.Kaffee]]
+
+[[*Nein! Du bist komisch!*->5.1]]
+
+`🧠 Nota`: En clase se puede usar el "du" informal entre compañeros, pero a profesores se les trata como “Sie”.
+
+
+:: 4.2 {"position":"350,625","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Entiendo la confusión, pero recuerda, Land es igual a tierra en inglés (Land), ¿a qué crees que hace referencia en alemán?
+
+[[Me da a mí que vas a tener que probar de nuevo...->3. Hotel]]
+
+
+:: 5.1 {"position":"725,750","size":"100,100"}
+
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Oliver te mira confuso y se va sin decirte nada. ¿Por qué le has dicho que es un rarito...?
+
+{embed image: 'img/was.jpg'}
+
+[[Inténtalo otra vez, anda->4. Klasse]]
+
+
+:: 5.Kaffee {"position":"600,750","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Oliver te sonríe y quedáis después de clase. En el camino vais a hablando y de dice que lleva varios años viviendo en Frankfurt. Mientras tanto, ves carteles con palabras como "*Ausfahrt", "Eingang", "Straße"* o *"Krankenhaus"*. Esta última no la entiendes, y le preguntas a Oliver.
+
+*Krank heißt, wenn du "sick" bist, und ‚Haus‘ ist, wo du wohnst.“*
+
+¿Qué significa entonces *Krakenhaus*?
+
+[[Albergue de animales->6.1]]
+
+[[Hospital->6]]
+
+[[Casa de enfermos->6.2]]
+
+
+
+:: 6 {"position":"725,875","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+*¡Ja! Du hast Recht!*
+{embed image: 'img/krank.jpg'}
+
+Continuas con tu paseo y llegáis a la [[cafetería->7. Cafe]].
+
+
+:: 6.1 {"position":"600,875","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+¿A ti también te encantan los animales, verdad? 🥰
+
+{embed image: 'img/katze.jpg'}
+
+Pero no, no significa albergue de animales, [[prueba de nuevo.->5.Kaffee]]
+
+
+:: 6.2 {"position":"475,875","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+¡Sí!, pero...¡no! Literalmente esa es su traducción: *Krank* = enfermo y *Haus* = casa, pero sabes que en español no lo llamamos así.
+
+[[Vuelve a intentarlo->6]]
+
+`Dato: ambulancia es....¡Krankenwagen! Eaxcto, coche de enfermos🤒`
+
+
+:: 7. Cafe {"position":"725,1000","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+¡Ya casi terminas! Tan solo te queda una prueba por superar: **pide un café.**
+
+{embed image: 'img/coffee.jpg'}
+
+Oliver se pide un café solo, pero tú quieres un café con leche, ¿cómo lo pides?
+
+[[*"Ich möchte einen Milchkaffee.“*]]
+
+[[*"Ich möchte ein Kaffee mit Rum."*->8.1]]
+
+
+
+
+:: 8.1 {"position":"850,1125","size":"100,100"}
+config.header.center: "Ein neuer Anfang in Deutschland"
+config.style.page.header.font: "Rockwell 40"
+config.footer.center: "Irene Barquero Moreno 2025"
+config.style.dark.page.color: "dark grey on  #ce78f1"
+config.style.dark.page.font: "calibri 20"
+config.style.dark.page.link.active.color: "purple"
+config.style.dark.page.link.color: "#470b5d"
+config.style.dark.page.link.lineColor: "#ce78f1 "
+config.style.page.color: "dark grey on  #ce78f1 "
+config.style.page.font: "calibri 20"
+config.style.page.link.active.color: "purple"
+config.style.page.link.color: "dark grey"
+config.style.page.link.lineColor: "#ce78f1 "
+--
+[CSS]
+
+#backdrop {
+  background-image: url("img/frankfurt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+[continued]
+
+Oliver te mira sorprendido, pero asiente. Cuando pruebas el café...¡tiene ron! 
+
+*Tut mir leid*... ya no puedes volver a intentarlo. ¡Que aproveche! 😁
+
+{embed image: 'img/ende.jpg'}
+
+[[Volver a jugar->1. Wilkommen in Frankfurt]]

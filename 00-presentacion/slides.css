@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Knewave&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.reveal {
+    font-family: Arial, sans-serif;
+    font-size: 25px; /* Puedes bajarlo a 14px si lo ves muy grande */
+    line-height: 1.5;
+    background-color: #e3b6f3;
+  }
+
+  .reveal h1{
+    font-family: 'Knewave';
+    font-weight: normal;
+    font-size: 70px ;
+    color: #83028c;
+  }
+  .reveal h2, 
+  .reveal h3 {
+    font-family: 'Knewave', serif;
+    font-weight: normal;
+    font-size: 35px;
+    color: #83028c;
+  }
+
+  .reveal img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  
