@@ -4,7 +4,7 @@
   - [Guía presentación](/00-presentacion/README)
   - <a href="/00-presentacion/index.html" target="_blank">Presentación (Reveals.js)</a>
 - 📖 Lecciones
-  - [Guía de las lecciones](01-leccion/README)
+  - [Guía de las lecciones](/01-leccion/README)
   - <a href="/01-leccion/Lección_y_ejercicios.pdf" target="_blank">Lecciones (PDF)</a>
 - 🔤 Glosario
   - [Guía del glosario](/02-glosario/README)
