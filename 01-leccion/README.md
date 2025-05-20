@@ -25,7 +25,7 @@ Lección teórica y con ejercicios en **PDF**, estructurada siguiendo un formato
 
 ## ⚙️ Ejecución
 
-Para ejecutarla tan solo tienes que descargarte el documento PDF. Está también disponible en *html* y *markdown*. 
+Para ejecutarla tan solo tienes que hacer clik en la pestaña "Lecciones (PDF)". Se abrirá automáticamente en una nueva pestaña y podrás descargarlo. 
 
 ## ⏭️ Siguiente lección
 
