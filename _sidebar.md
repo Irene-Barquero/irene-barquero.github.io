@@ -1,4 +1,4 @@
-- 🏠 [Inicio](README)
+- 🏠 [Inicio](/)
 
 - 📌 Presentación
   - [Guía presentación](/00-presentacion/README)
