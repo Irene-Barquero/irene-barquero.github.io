@@ -1,4 +1,4 @@
-- [🏠 Inicio](README.md)
+- [🏠 **Inicio**](README.md)
 
 - 📌 Presentación
   - [Guía presentación](/00-presentacion/README)
@@ -9,7 +9,7 @@
 - 🔤 Glosario
   - [Guía del glosario](/02-glosario/README)
   - <a href="/02-glosario/dist/epub_glosario.epub" target="_blank">Glosario (EPUB)</a>
-  - 📕 Libro de curiosidades
+- 📕 Libro de curiosidades
   - [Guía del libro](/03-curiosidades/README)
   - <a href="/03-curiosidades/dist/epub_curiosidades.epub" target="_blank">Curiosidades de Alemania y los alemanes (EPUB)</a>
 - 🕹️ Historia interactiva
