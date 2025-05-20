@@ -1,17 +1,17 @@
 - [🏠 Inicio](README.md)
 
 - 📌 Presentación
-  - [Guía presentación](00-presentacion/README.md)
-  - [Presentación del curso](00-presentacion/index.html)
+  - [Guía presentación](/00-presentacion/README)
+  - [Presentación del curso](/00-presentacion/index)
 - 📖 Lecciones
-  - [Guía de las lecciones](01-leccion/README.md)
-  - [Lecciones](01-leccion/leccion_y_ejercicios.pdf)
+  - [Guía de las lecciones](01-leccion/README)
+  - [Lecciones](/01-leccion/Lección_y_ejercicios.pdf)
 - 🔤 Glosario
-  - [Guía del glosario](02-glosario/README.md)
-  - [Glosario](02-glosario/dist/epub_glosario.epub)
+  - [Guía del glosario](/02-glosario/README)
+  - [Glosario](/02-glosario/dist/epub_glosario.epub)
 - 📕 Libro de curiosidades
-  - [Guía del libro](03-curiosidades/README.md)
-  - [*Curiosidades de Alemania y los alemanes*](03-curiosidades/dist/epub_curiosidades.epub)
+  - [Guía del libro](/03-curiosidades/README)
+  - [*Curiosidades de Alemania y los alemanes*](/03-curiosidades/dist/epub_curiosidades.epub)
 - 🕹️ Historia interactiva
-  - [Guía de la historia](04-historia/README.md)
-  - [*Ein neuer Anfang in Deutschland*](04-historia/Ein%20neuer%20Anfang%20in%20Deutschland.html)
+  - [Guía de la historia](/04-historia/README)
+  - [*Ein neuer Anfang in Deutschland*](/04-historia/Ein%20neuer%20Anfang%20in%20Deutschland)
