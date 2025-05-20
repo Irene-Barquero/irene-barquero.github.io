@@ -18,7 +18,7 @@ Esta es una presentación para el curso *Aprende alemán en un "plis plas"*. En 
 
 ## ⚙️ Ejecución
 
-Para ejecutarla tan solo haz doble click en el archivo html. Se te abrirá en una pestaña del navegador que estés usando. 
+Para ejecutarla tan solo descaraga el archivo "index.html", haz doble click, y se te abrirá en una pestaña del navegador que estés usando. 
 
 ## ⏭️ Siguiente lección
 
