@@ -25,7 +25,9 @@ Lección teórica y con ejercicios en **PDF**, estructurada siguiendo un formato
 
 ## ⚙️ Ejecución
 
+<<<<<<< HEAD
 Para ejecutarla tan solo tienes que hacer clik en la pestaña "Lecciones (PDF) y se abrirá automáticamente en una nueva pestaña de tu navegador. Desde allí podrás también descargar el archivo.  
+
 
 ## ⏭️ Siguiente lección
 
