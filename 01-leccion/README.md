@@ -16,13 +16,12 @@ Lección teórica y con ejercicios en **PDF**, estructurada siguiendo un formato
 * 1.5. **Persönliche Angaben** (Datos personales)
 * 1.6. **Wortschatz+** (Vocabulario)
 * 1.7. **Linken** (Enlaces)
-  
+
 ### Lección 2: Familie und Freunde
 * 2.1. **Wie geht's? - Danke, sehr gut** (¿Cómo estás?)
 * 2.2. **Das ist mein Freund...** (Presentar a alguien)
 * 2.3. **Zahlen** (Números)
 * 2.5. **Linken** (Enlaces)
-
 
 ## ⚙️ Ejecución
 

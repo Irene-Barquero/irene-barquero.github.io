@@ -6,7 +6,7 @@ Un mini-curso para tomar un primer contacto con la lengua germana, desarrollado 
 
 ## 🎯 Objetivo global
 * Adquirir conocimientos mínimos de la lengua alemana.
-* Permitir al/la estudiante defenderse en situaciones comunes. 
+* Permitir al estudiante defenderse en situaciones comunes. 
 
     ### ➡️ Objetivos específicos 
     * Saludar y presentarse

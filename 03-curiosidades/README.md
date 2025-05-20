@@ -10,17 +10,17 @@ Pequeño libro sobre cultura y curiosidades dividido en dos secciones:
 ## 📚 Estructura desglosada 
 
 1. 🤔 **Curiosidades del idioma alemán**  
-   1.1. Palabras larguísimas
-   1.2. Ausrufe!  
-   1.3. Idioma más hablado en la UE
-   1.4. Palabras intraducibles 
-   1.5. No todo se dice igual...
-   1.6. Actividades  
+   1.1. Palabras larguísimas  
+   1.2. Ausrufe!    
+   1.3. Idioma más hablado en la UE  
+   1.4. Palabras intraducibles   
+   1.5. No todo se dice igual...  
+   1.6. Actividades    
 2. 👀 **Curiosidades sobre Alemania:** 
-   2.1. Límites de velocidad  
-   2.2. Oktoberfest 
-   2.3. Líder en reciclaje 
-   2.4. Madre de la "Fanta" 
+   2.1. Límites de velocidad    
+   2.2. Oktoberfest   
+   2.3. Líder en reciclaje   
+   2.4. Madre de la "Fanta"   
    2.5. Actividades
 3. 📎 **Apéndice** (aquí se encuentran recursos extra de interés)
 
