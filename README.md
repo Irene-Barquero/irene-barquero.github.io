@@ -26,7 +26,7 @@ Un mini-curso para tomar un primer contacto con la lengua germana, desarrollado 
 * **Glosario** ePub: fonética y frases útiles.
 * **Guía** ePub sobre curiosidades: de la lengua alemana y del país.
 * **Historia interactiva** en Twine
-* 
+  
 ## 👨👩‍🦰 Destinatarios y requisitos previos
 Este mini-curso está enfocado a cualquier persona a partir de 14 años que tenga interés por el idioma alemán. Al tratarse de un curso inicial **no son necesarios conocimientos previos de la lengua**, pero **sí se requiere de un mínimo de manejo tecnológico**: uso del navegador, funcionamiento de GitHub, uso de enlaces externos, manejar ePubs y PDFs. 
 
